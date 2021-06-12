@@ -1,0 +1,14 @@
+* Requirements
+  Run the following command:
+  #+begin_src sh
+  pip install flask requests
+  #+end_src
+* Running the application
+  Inside the application directory, use the following command
+  #+begin_src sh
+  FLASK_APP=api flask run
+  #+end_src
+* Observations
+  I was not able to figure out a way to test my app without calling
+  your API. Furthermore, as python is not the most suited language for
+  concurrency, my app queries your API serially.
