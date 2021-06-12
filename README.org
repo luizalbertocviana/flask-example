@@ -11,4 +11,5 @@
 * Observations
   I was not able to figure out a way to test my app without calling
   your API. Furthermore, as python is not the most suited language for
-  concurrency, my app queries your API serially.
+  concurrency, my app queries your API serially. Actually, I should
+  have used requests-futures or another similar library.
